@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:public": "cd public-app && pnpm dev -p 3001",
+    "dev:admin": "cd admin-app && pnpm dev -p 3002",
+    "dev": "concurrently \"pnpm run dev:public\" \"pnpm run dev:admin\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
 }

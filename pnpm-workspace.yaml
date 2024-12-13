@@ -1,4 +1,4 @@
 packages:
-  - 'app'
-  - 'base'
-  - 'layer-two'
+  - "public-app"
+  - "admin-app"
+  - "_base"

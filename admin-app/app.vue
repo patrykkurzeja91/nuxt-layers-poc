@@ -1,6 +1,6 @@
 <template>
   <div>
+    ADMIN VIEW
     <SomeComponent />
-    <LayerTwoComponent />
   </div>
 </template>
